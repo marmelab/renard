@@ -18,7 +18,7 @@ help:
 
 install:  ## Build docker images and install node dependencies
 	$(DOCKER_COMPOSE) build
-	$(DOCKER_COMPOSE) run --rm server bash -ci "yarn"
+	$(DOCKER_COMPOSE) run --rm server ash -ci "yarn"
 
 start:
 	$(DOCKER_COMPOSE) up
