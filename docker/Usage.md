@@ -8,6 +8,12 @@ In order to install the Docker ecosystem, follow the instructions in the documen
 - [Docker Compose](https://docs.docker.com/compose/install/#install-compose)
 
 
+## Use the alpine version
+
+In most cases, the alpine version is enough. It is lighter than the debian version and this will result in smaller images.
+
+You might need the debian (jessie) version when using libraries such as ImageMagick.
+
 ## Share current user permissions in the container
 
 Expore the current user id and the group id in environment variables:
