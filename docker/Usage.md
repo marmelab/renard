@@ -40,7 +40,9 @@ services:
         user: "${UID}:${GID}"
 ```
 
-Documentation: [Docker Security](https://docs.docker.com/engine/security/security/#other-kernel-security-features) about User Namespaces.
+Documentation:
+    - [Docker Security](https://docs.docker.com/engine/security/security/)
+    - [Isolate containers with a user namespace](https://docs.docker.com/engine/security/userns-remap/)
 
 
 ## Sharing /etc/passwd with read-only mode
