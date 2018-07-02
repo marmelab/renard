@@ -9,6 +9,7 @@ Recipes to quickly bootstrap a project.
 * [Docker](./docker)
     * [Docker Usage](./docker/Usage.md)
     * [Dockerfile Templates](./docker/Templates.md)
+* [Linting](./linting)
 
 ## Examples
 
