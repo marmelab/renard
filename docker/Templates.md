@@ -1,22 +1,14 @@
 # Dockerfile Templates
 
-## Node 10 with Yarn
+## Node 10 (yarn included)
+
+This Dockerfile is just exposed here for documentation purpose.
+In the case you just need this image, prefer to use `docker run node:10-alpine` with the correct user, volumes, working directory and ports.
+
+Image source: [node:10-alpine](https://github.com/nodejs/docker-node/blob/master/10/alpine/Dockerfile)
 
 ```
-FROM node:10
-
-RUN echo "===> Installing essentials..." && \
-    apt-get update && \
-    apt-get -y upgrade && \
-    apt-get install -y --no-install-recommends --force-yes \
-        apt-transport-https ca-certificates unicode-data
-
-RUN echo "===> Installing Yarn..." && \
-    curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - && \
-    echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list && \
-    apt-get update && \
-    apt-get install -y --no-install-recommends yarn
+FROM node:10-alpine
 
 WORKDIR /app
-
 ```

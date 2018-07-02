@@ -2,11 +2,13 @@ version: '3'
 
 services:
     server:
-        build: packages/server
+        image: node:10-alpine
         user: "${UID}:${GID}"
         volumes:
             - ".:/app"
-            - "/etc/passwd:/etc/passwd:ro"
+        ports:
+            - "3000:3000"
         command: "node packages/server/index.js"
         environment:
             - HOME=/app/var/cache
+        working_dir: /app
