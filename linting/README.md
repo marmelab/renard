@@ -109,3 +109,14 @@ If you dislike putting configuration inside the `package.json`, just ommit the `
 ```
 
 > If you wish to use `lint-staged` in a multi package monorepo, it is recommended to install `husky` in the root `package.json`. `lerna` can be used to execute the `precommit` script in all sub-packages.
+
+## Bonus - VS Code integration
+
+Install the [eslint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+```json
+{
+    "editor.formatOnSave": false,
+    "eslint.autoFixOnSave": true,
+}
+```
