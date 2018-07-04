@@ -4,7 +4,7 @@
 
 This will configure prettier to be part of eslint rules, which means running `eslint --fix` will actually apply prettier.
 
-Be sure to have to have prettier installed:
+Be sure to have prettier installed:
 
 ```bash
 yarn add -D prettier
