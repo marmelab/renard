@@ -4,12 +4,12 @@
 
 This will configure prettier to be part of eslint rules, which means running `eslint --fix` will actually apply prettier.
 
-Install eslint dependencies:
+Install dev dependencies:
 
 ```bash
-yarn add -D eslint eslint-config-prettier eslint-plugin-prettier eslint-plugin-import eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-react eslint-config-cypress babel-eslint
+yarn add -D eslint eslint-config-prettier eslint-plugin-prettier eslint-plugin-import eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-cypress babel-eslint prettier
 
-npm install --save-dev eslint eslint-config-prettier eslint-plugin-prettier eslint-plugin-import eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-react eslint-config-cypress babel-eslint
+npm install --save-dev eslint eslint-config-prettier eslint-plugin-prettier eslint-plugin-import eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-cypress babel-eslint prettier
 ```
 
 And create the file `.eslintrc` containing the following configuration.
