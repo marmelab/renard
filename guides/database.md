@@ -1,4 +1,4 @@
-# Adding Postgre SQL Database
+# Adding PostgreSQL Database
 
 ## Docker Container
 
