@@ -2,6 +2,10 @@
 
 Recipes to quickly bootstrap a project.
 
+## Guides
+
+- [Adding a Database](./guides/database.md)
+
 ## Recipes
 
 - [Makefile](./makefile)
@@ -9,7 +13,6 @@ Recipes to quickly bootstrap a project.
 - [Docker](./docker)
   - [Docker Usage](./docker/Usage.md)
   - [Dockerfile Templates](./docker/Templates.md)
-  - [Docker Compose Templates](./docker/DockerComposeTemplates.md)
 - [Linting](./linting)
 
 ## Examples
