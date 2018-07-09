@@ -4,13 +4,14 @@ Recipes to quickly bootstrap a project.
 
 ## Recipes
 
-* [Makefile](./makefile)
-* [Yarn](./yarn)
-* [Docker](./docker)
-    * [Docker Usage](./docker/Usage.md)
-    * [Dockerfile Templates](./docker/Templates.md)
-* [Linting](./linting)
+- [Makefile](./makefile)
+- [Yarn](./yarn)
+- [Docker](./docker)
+  - [Docker Usage](./docker/Usage.md)
+  - [Dockerfile Templates](./docker/Templates.md)
+  - [Docker Compose Templates](./docker/DockerComposeTemplates.md)
+- [Linting](./linting)
 
 ## Examples
 
-* [Node Server Run With Docker](./example)
+- [Node Server Run With Docker](./example)
